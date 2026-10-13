@@ -1,5 +1,7 @@
 # electron-cdp-remote
 
+通过 Copilot 创建的仓库
+
 Drive a **debug-guarded Electron desktop client** over the Chrome DevTools Protocol.
 
 No Playwright. No Puppeteer. No dependencies at all.
