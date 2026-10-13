@@ -1,0 +1,23 @@
+node_modules/
+npm-debug.log*
+yarn-error.log*
+*.tgz
+
+# local scratch: temp profiles and command inboxes
+.tmp/
+profiles/
+*.jsonl
+inbox/
+outbox/
+
+# leak-scan terms file is LOCAL ONLY — never commit
+private-terms.local.json
+*.local.json
+
+# local publish helper (mentions a personal token env var)
+publish.sh
+publish.local.sh
+
+# OS noise
+.DS_Store
+Thumbs.db

@@ -1,0 +1,36 @@
+{
+  "name": "electron-cdp-remote",
+  "version": "0.1.0",
+  "description": "Drive a debug-guarded Electron desktop client over the Chrome DevTools Protocol, with zero dependencies. Attaches via --remote-debugging-pipe when --remote-debugging-port is blocked.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "bin": {
+    "ecdp": "./src/cli.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "electron",
+    "cdp",
+    "chrome-devtools-protocol",
+    "remote-debugging-pipe",
+    "automation",
+    "reverse-engineering"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node scripts/smoke-test.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
